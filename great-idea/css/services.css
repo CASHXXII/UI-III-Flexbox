@@ -77,17 +77,6 @@ header nav {
   header .logo {
     margin-top: 25px;
   }
-  
-  .main-content {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    margin-top: 6px;
-    padding-top: 9px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    
-    
-  }
 
   button {
     border: 1px solid black;
@@ -96,14 +85,53 @@ header nav {
     border-radius: 5px;
     font-size: 12px;
 }
+  
+  .main-content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 6px;
+    padding-top: 9px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    
+  }
 
-  footer {
+.top-row{
+    display: flex;
+    
+    width: 95%;
+    margin: 20px;
+}
+
+.middle-row{
+    display: flex;
+    width: 95%;
+    margin: 20px;
+}
+  
+.bottom-row{
+    display: flex;
+    width: 95%;
+    margin: 20px;
+}
+
+.top-row-1, .top-row-2, .middle-row-1, .middle-row-2, .bottom-row-1, .bottom-row-2{
+    border: 1px solid black;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin: 20px;
+    padding: 20px;
+}
+
+
+footer {
     margin: 32px 0;
     text-align: center;
     display: flex;
     justify-content: center;
   }
 
-
-
-  
