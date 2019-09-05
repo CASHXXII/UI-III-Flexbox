@@ -1,0 +1,109 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: flex;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+    list-style: none;
+    list-style-type: square;
+    line-height: 2
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* Header */
+header nav {
+    display: flex;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+  }
+  
+  header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header .logo {
+    margin-top: 25px;
+  }
+  
+  .main-content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 6px;
+    padding-top: 9px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+    
+  }
+
+  button {
+    border: 1px solid black;
+    background: white;
+    padding: 7px 32px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+  footer {
+    margin: 32px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  
